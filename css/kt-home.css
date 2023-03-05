@@ -1,0 +1,45 @@
+﻿/*====== Custom home page styles -------------*/
+
+.products-menu {
+    justify-content: center;
+    margin-left: 15%;
+    margin-top:20px;
+    background-color: black;
+    background-image: url(images/screen-1.png);
+    background-size: auto;
+    display: block;
+    float: inherit;
+    width: 15vw;
+    padding-left: 20px;
+}
+
+a {
+    background-color: darkslategray;
+
+    color: lime;
+    transition: background-color 0.5s;
+    position: relative;
+    font-family: monospace;
+}
+
+    a:hover {
+        background-color: purple;
+    }
+
+/*--------- Media Quaries ---------------- */
+@media (min-width: 768px) {
+    :root {
+        font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
+        min-height: 0vw;
+    }
+}
+
+@media (min-width: 1920px) {
+    :root {
+        font-size: 24px;
+    }
+} 
+
+.contact {
+    margin-left: 6%;
+}

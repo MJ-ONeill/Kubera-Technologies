@@ -1,0 +1,87 @@
+﻿
+/*========== FONT --------------*/
+@font-face {
+    font-family: 'PunkBabe', format TrueType Outlines;
+        font-weight: 900;
+}
+
+
+/*--------------- General ----------------*/
+body {
+    margin: auto;
+   display: block;
+    font-family: monospace;
+    font-weight: 900;
+    background: radial-gradient(rgb(13, 39, 96) 7%, rgb(12, 203, 232) 31%, rgb(104, 9, 230) 54%, rgb(66, 4, 96) 80%);
+    justify-content: space-between;
+    font-size: 18px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+    
+    /*---- HEADER + FOOTER -------------------- */
+header {
+    height: 10vh;
+    width: 100%;
+    border-bottom: 5px solid red;
+    color: purple;
+    position: relative;
+    float: right;
+    display: block flow-root;
+    text-align: center;
+    justify-content: center;
+    font-family: 'PunkBabe', sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+
+
+   
+
+/*------------ Custom ---------------------*/
+    /*====== Images ========*/
+.logo {
+    background: #FFFFFF url("../images/LOGO.png");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-color: black;
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    min-width: 200px;
+    max-height: 625px;
+    margin-left: 15em;
+}
+/*--------------------- Links -------------- */
+a {
+    background-color: black;
+    
+    color: cyan;
+    transition: background-color 0.5s;
+    position: relative;
+    font-family: 'Microsoft Himalaya', monospace;
+}
+
+    a:hover {
+        background-color: purple;
+    }
+
+    /*--------- Media Quaries ---------------- */
+    @media (min-width: 768px) {
+        :root {
+            font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
+            min-height: 0vw;
+        }
+    }
+
+    @media (min-width: 1920px) {
+        :root {
+            font-size: 24px;
+        }
+    } 
