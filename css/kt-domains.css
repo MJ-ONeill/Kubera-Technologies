@@ -1,0 +1,77 @@
+﻿body {
+    margin: auto;
+    display: block;
+    font-family: monospace;
+    font-weight: 900;
+    background: radial-gradient(rgb(13, 39, 96) 7%, rgb(12, 203, 232) 31%, rgb(104, 9, 230) 54%, rgb(66, 4, 96) 80%);
+    justify-content: center;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+}
+
+table {
+    margin-left: 40px;
+    padding: 20px;
+    flex-wrap: nowrap;
+    border: solid black;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    background-color: lawngreen;
+    color: white;
+}
+
+ tr {
+    background-color: darkmagenta;
+    border: solid red;
+    text-align: center;
+}
+
+ td {
+    margin: 40px;
+    padding: 20px;
+    flex-wrap: nowrap;
+    border: solid black;
+    text-align: center;
+    background-color: black;
+
+}
+
+
+.products-menu {
+    justify-content: center;
+    margin-left: 60%;
+    
+    background-color: black;
+    background-image: url(images/screen-1.png);
+    background-size: auto;
+    display: block;
+    float: inherit;
+    width: 15vw;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: cyan;
+}
+
+
+.contact {
+    margin-left: 50%;
+    justify-content: center
+}
+
+@media (min-width: 768px) {
+    :root {
+        font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
+        min-height: 0vw;
+    }
+}
+
+@media (min-width: 1920px) {
+    :root {
+        font-size: 24px;
+    }
+} 
