@@ -38,6 +38,22 @@ header {
     text-decoration: underline;
 }
 
+footer {
+    height: 5vh;
+    width: 100%;
+    border-top: 5px solid gray;
+    color: black;
+    position: relative;
+    float: right;
+    display: block flow-root;
+    text-align: center;
+    justify-content: center;
+    font-family: 'PunkBabe', sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight:900;
+}
+
 
 
    

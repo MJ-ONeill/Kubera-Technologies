@@ -1,8 +1,19 @@
 ﻿/*====== Custom home page styles -------------*/
+body {
+    margin: auto;
+    display: block;
+    font-family: monospace;
+    font-weight: 900;
+    background: radial-gradient(rgb(13, 39, 96) 7%, rgb(12, 203, 232) 31%, rgb(104, 9, 230) 54%, rgb(66, 4, 96) 80%);
+    justify-content: center;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+}
 
 .products-menu {
     justify-content: center;
-    margin-left: 15%;
+    margin-left: 25%;
     margin-top:20px;
     background-color: black;
     background-image: url(images/screen-1.png);
@@ -11,11 +22,12 @@
     float: inherit;
     width: 15vw;
     padding-left: 20px;
+    height: 100%;
+    margin: 50px;
 }
 
 a {
     background-color: darkslategray;
-
     color: lime;
     transition: background-color 0.5s;
     position: relative;
@@ -25,16 +37,17 @@ a {
     a:hover {
         background-color: purple;
     }
+button:hover {
+    background-color: cyan;
+}
 
-    button:hover {
-        background-color: cyan;
-    }
+
+.contact {
+    margin-left: 50%;
+    justify-content: center
+}
 
 
-    .contact {
-        margin-left: 50%;
-        justify-content: center
-    }
 /*--------- Media Quaries ---------------- */
 @media (min-width: 768px) {
     :root {
@@ -47,8 +60,21 @@ a {
     :root {
         font-size: 24px;
     }
-} 
+}
 
-.contact {
-    margin-left: 6%;
+
+footer {
+    height: 5vh;
+    width: 100%;
+    border-top: 5px solid gray;
+    color: black;
+    position: relative;
+    float: right;
+    display: block flow-root;
+    text-align: center;
+    justify-content: center;
+    font-family: 'PunkBabe', sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: 900;
 }

@@ -1,20 +1,6 @@
 /*
 * === Products class style ===
 */
-.products-menu {
-	justify-content: center;
-	margin-left: 60%;
-	
-	background-color: black;
-	background-image: url(images/screen-1.png);
-	background-size: auto;
-	display: block;
-	float: inherit;
-	width: 15vw;
-	padding-left: 20px;
-	margin-bottom: 20px;
-}
-
 /* Products flexbox */
 .products {
 	justify-content: center;
@@ -72,7 +58,7 @@
 	min-width: 60px;
 	height: 60px;
 	font-size: 30px;
-	color: #00c8eb;
+	color: darkgoldenrod;
 	border: 4px solid #30ec00;
 	border-radius: 50%;
 	padding: 5px;
@@ -136,6 +122,19 @@
 	}
 }
 
+.products-menu {
+	justify-content: center;
+	margin-left: 60%;
+	background-color: black;
+	background-image: url(images/screen-1.png);
+	background-size: auto;
+	display: block;
+	float: inherit;
+	width: 15vw;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+
 button:hover {
 	background-color: cyan;
 }
@@ -144,4 +143,21 @@ button:hover {
 .contact {
 	margin-left: 50%;
 	justify-content: center
+}
+
+@media (min-width: 768px) {
+	:root {
+		font-size: calc(1rem + ((1vw - 7.68px) * 0.6944));
+		min-height: 0vw;
+	}
+}
+
+@media (min-width: 1920px) {
+	:root {
+		font-size: 24px;
+	}
+}
+
+.contact {
+	margin-left: 6%;
 }
