@@ -1,6 +1,20 @@
 /*
 * === Products class style ===
 */
+.products-menu {
+	justify-content: center;
+	margin-left: 60%;
+	
+	background-color: black;
+	background-image: url(images/screen-1.png);
+	background-size: auto;
+	display: block;
+	float: inherit;
+	width: 15vw;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+
 /* Products flexbox */
 .products {
 	justify-content: center;
@@ -120,4 +134,14 @@
 	.products h1 {
 		width: 95%;
 	}
+}
+
+button:hover {
+	background-color: cyan;
+}
+
+
+.contact {
+	margin-left: 50%;
+	justify-content: center
 }

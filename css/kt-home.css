@@ -26,6 +26,15 @@ a {
         background-color: purple;
     }
 
+    button:hover {
+        background-color: cyan;
+    }
+
+
+    .contact {
+        margin-left: 50%;
+        justify-content: center
+    }
 /*--------- Media Quaries ---------------- */
 @media (min-width: 768px) {
     :root {
