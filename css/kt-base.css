@@ -9,13 +9,14 @@
 /*--------------- General ----------------*/
 body {
     margin: auto;
-   display: block;
+    display: block;
     font-family: monospace;
     font-weight: 900;
     background: radial-gradient(rgb(13, 39, 96) 7%, rgb(12, 203, 232) 31%, rgb(104, 9, 230) 54%, rgb(66, 4, 96) 80%);
-    justify-content: space-between;
+    background-repeat: no-repeat;
+    justify-content: center;
     font-size: 18px;
-    height: 100%;
+    height: 60%;
     width: 100%;
 }
 
@@ -24,34 +25,44 @@ body {
     
     /*---- HEADER + FOOTER -------------------- */
 header {
-    height: 10vh;
+    
     width: 100%;
     border-bottom: 5px solid red;
     color: purple;
-    position: relative;
+    position: absolute;
     float: right;
     display: block flow-root;
     text-align: center;
-    justify-content: center;
+   
     font-family: 'PunkBabe', sans-serif;
-    font-size: 40px;
+ 
     text-decoration: underline;
 }
 
-footer {
-    height: 5vh;
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem; /* Footer height */
+}
+
+#footer {
+    position: relative;
+    bottom: 0;
     width: 100%;
+    height: 2.5rem; /* Footer height */
     border-top: 5px solid gray;
     color: black;
-    position: relative;
-    float: right;
-    display: block flow-root;
+    display: block;
     text-align: center;
     justify-content: center;
     font-family: 'PunkBabe', sans-serif;
     font-size: 16px;
     text-decoration: underline;
-    font-weight:900;
+    font-weight: 900;
+    
 }
 
 
@@ -67,12 +78,13 @@ footer {
     background-color: black;
     position: relative;
     flex-wrap: wrap;
-    display: flex;
-    height: 10vh;
+    display: block flow-root;
+    height: 15vh;
     width: 100%;
     min-width: 200px;
     max-height: 625px;
     margin-left: 15em;
+    font-size:20px;
 }
 /*--------------------- Links -------------- */
 a {
@@ -87,6 +99,29 @@ a {
     a:hover {
         background-color: purple;
     }
+
+.products-menu {
+    justify-content: center;
+    margin-left: 60%;
+    background-color: black;
+    background-image: url(images/screen-1.png);
+    background-size: auto;
+    display: block;
+    float: inherit;
+    width: 15vw;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: cyan;
+}
+
+
+.contact {
+    margin-left: 50%;
+    justify-content: center
+}
 
     /*--------- Media Quaries ---------------- */
     @media (min-width: 768px) {
