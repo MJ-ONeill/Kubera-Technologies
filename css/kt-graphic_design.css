@@ -14,6 +14,7 @@
     display: flex;
     flex-flow: row wrap;
     width: 100%;
+    font-weight: 900;
 }
 
     .products article {
@@ -34,6 +35,8 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 8%;
+    background-color: white;
+    width:auto;
 }
 
 .products h2 {
