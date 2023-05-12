@@ -67,7 +67,7 @@
   margin-left:6px;
   margin-right:0;
   border-radius:100%;
-  background-color:#000000
+  background-color:#252424
 }
 .copyright-text
 {
@@ -111,7 +111,7 @@
   font-size:13px
 }
 .social-icons a{
-  background-color:#eceeef;
+  background-color:#1d1d1d;
   color:#818a91;
   font-size:16px;
   display:inline-block;
@@ -128,7 +128,7 @@
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
   color:#fff;
-  background-color:#29aafe
+  background-color:#222323
 }
 .social-icons.size-sm a
 {
@@ -139,7 +139,7 @@
 }
 .social-icons a.facebook:hover
 {
-  background-color:#3b5998
+  background-color:#19191a
 }
 .social-icons a.twitter:hover
 {
