@@ -2,16 +2,16 @@
 
 /*--------------- General ----------------*/
 body {
-  margin: auto;
+  margin: 2px;
   display: block;
   font-family: monospace;
   font-weight: 900;
   background-image: url("../images/Background.png");
-  background-size:100%;
-  background-repeat:repeat;
+  background-size:inherit;
+  background-repeat: repeat;
   justify-content: center;
   font-size: 18px;
-  height: 100%;
+  height:auto;
   width: 100%;
 }
 
@@ -82,6 +82,7 @@ a {
   width: 15vw;
   padding-left: 20px;
   margin-bottom: 20px;
+  position:inherit;
 }
 
 button:hover {
